@@ -1,0 +1,21 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c1nv1d60hihs2"]
+
+[ext_resource type="Texture2D" uid="uid://fx52igakij2p" path="res://DotOverlay.png" id="1_8l06w"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kek77"]
+render_priority = 1
+transparency = 1
+albedo_texture = ExtResource("1_8l06w")
+uv1_scale = Vector3(0.25, 0.283, 0.283)
+uv1_triplanar = true
+uv1_world_triplanar = true
+
+[resource]
+next_pass = SubResource("StandardMaterial3D_kek77")
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.5882353, 0.85882354, 0.5686275, 1)
+roughness = 0.0
+stencil_flags = 2
+stencil_color = Color(0.42745098, 0.6313726, 0.42745098, 1)
+stencil_outline_thickness = 0.05

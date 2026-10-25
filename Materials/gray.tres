@@ -1,0 +1,21 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dt6yynrfw7wip"]
+
+[ext_resource type="Texture2D" uid="uid://dem1bfsajbp8t" path="res://DiagonalOverlay.png" id="1_pn7op"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_73bfn"]
+render_priority = 1
+transparency = 1
+albedo_texture = ExtResource("1_pn7op")
+uv1_scale = Vector3(1, 1.133, 1.133)
+uv1_triplanar = true
+uv1_world_triplanar = true
+
+[resource]
+next_pass = SubResource("StandardMaterial3D_73bfn")
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.8509804, 0.83137256, 0.84705883, 1)
+roughness = 0.0
+stencil_flags = 2
+stencil_color = Color(0.31764707, 0.3019608, 0.2901961, 1)
+stencil_outline_thickness = 0.025

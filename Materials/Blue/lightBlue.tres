@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cyl715mnujmat"]
+
+[resource]
+diffuse_mode = 3
+specular_mode = 1
+albedo_color = Color(0.5686275, 0.5882353, 0.85882354, 1)
+roughness = 0.0
+stencil_flags = 2
+stencil_color = Color(0.42745098, 0.6313726, 0.42745098, 1)
+stencil_outline_thickness = 0.05
